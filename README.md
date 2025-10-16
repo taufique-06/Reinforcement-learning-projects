@@ -24,3 +24,12 @@ When we tested with N = 10,000 (the full dataset), the graph clearly showed that
 ### N = 500
 <img width="581" height="450" alt="image" src="https://github.com/user-attachments/assets/83ffdb76-843b-47a7-8e32-48122af5fd73" />
 
+## Thompson Sampling Algorithm
+### Formula
+<img width="1104" height="469" alt="image" src="https://github.com/user-attachments/assets/a2608c9a-abe4-45c1-89b9-cb76d137da11" />
+
+### Results
+When you tested Thompson Sampling:
+
+For N = 10000, 5000, 1000, and even 500 rounds, it still picked the 5th Ad correctly, just unlike the UCB algorithm where it wasnt able to guess correct AD when N was smaller or 500. That shows Thompson Sampling is more powerful — especially when you have less data (fewer rounds).
+
